@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Satish_CustomerLoginTrack::Report" title="Customer Reports" translate="title" module="Satish_CustomerLoginTrack" sortOrder="30" resource="Satish_CustomerLoginTrack::Report"/>
+        <add id="Satish_CustomerLoginTrack::Report_Login" title="Login Reports" translate="title" module="Satish_CustomerLoginTrack" sortOrder="10" parent="Satish_CustomerLoginTrack::Report" action="customerlogintrack/grid" resource="Satish_CustomerLoginTrack::Report_Login"/>
+    </menu>
+</config>
